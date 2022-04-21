@@ -1,0 +1,19 @@
+/* <!--  1. Div : Style des divs Contact et Social--> */
+/* .contactAndSocial {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(93, 196, 255);
+  width: 100%;
+  color: white;
+  position: absolute;
+  bottom: 0;
+} */
+footer {
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 9px;
+}

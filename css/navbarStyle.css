@@ -1,0 +1,240 @@
+@font-face {
+  font-family: "shizuru";
+  src: url("/fonts/Shizuru-Regular.ttf") format("truetype");
+  font-family: "Redressed";
+  src: url("/fonts/Redressed-Regular.ttf") format("truetype");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Redressed";
+}
+/*-------Style Mobile-------*/
+/* @media screen and (min-width: 1065px) {
+  .container-nav .contactAndMedia .contact {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .container-nav .contactAndMedia .contact div {
+    padding: 5px 0;
+  }
+  .container-nav .container-logo-name-navlink .containerLink {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .container-nav .container-logo-name-navlink .containerLink .navlink {
+    font-size: 15px;
+  }
+} */
+/* @media screen and (max-width: 600px) {} */
+/*-------Style Bureautique-------*/ /*Div Général*/
+/*Fulls creen Bureautique*/
+.container-nav {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+/*style de la div qui contient les div : contact et media*/
+.container-nav .contactAndMedia {
+  background-color: #8ed1fc;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*style de la div contact*/
+.container-nav .contactAndMedia .contact {
+  display: flex;
+  margin-left: 70px;
+  font-size: 14px;
+}
+
+.container-nav .contactAndMedia .contact a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.1s ease-in-out;
+}
+
+.container-nav .contactAndMedia .contact a:hover {
+  font-size: 16px;
+  color: black;
+}
+
+.container-nav .contactAndMedia .contact div {
+  margin: 0 20px;
+}
+
+/*style de la div Social media*/
+.container-nav .contactAndMedia .socialMedia {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 40px;
+  font-size: 20px;
+}
+
+/*style de la div qui contient les liens vers les Social media*/
+.container-nav .contactAndMedia .socialMedia .linkSocial {
+  margin: 0 10px;
+}
+
+/*style des hyperliens vers les reseaux sociaux*/
+.container-nav .contactAndMedia .socialMedia .linkSocial a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  transition: all 0.1s ease-in-out;
+}
+
+.container-nav .contactAndMedia .socialMedia .linkSocial a:hover {
+  font-size: 25px;
+  color: black;
+}
+
+/*style de la div qui contient les div : logo and name et la div */
+.container-nav .nameAndLogoAndLink {
+  display: flex;
+  justify-content: space-around;
+}
+
+/*style de la div qui contient les div : containerLogoAndName et containerLink*/
+.container-nav .container-logo-name-navlink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*style de la div qui contient les div : logo et nameBranding*/
+.container-nav .container-logo-name-navlink .containerLogoAndName {
+  display: flex;
+  align-items: center;
+}
+
+/*style du logo*/
+.container-nav .container-logo-name-navlink .containerLogoAndName .logo img {
+  width: 70px;
+  margin-right: 20px;
+}
+
+/*style de la div qui contient les div : navlink*/
+.container-nav .container-logo-name-navlink .containerLink .box-link {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.container-nav .container-logo-name-navlink .containerLink .box-link .navlink {
+  padding: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.container-nav .container-logo-name-navlink .containerLink .navlink:hover {
+  font-size: 18px;
+  background-color: #8ed1fc;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+.container-nav .navbarHamburger {
+  display: none;
+}
+
+/*Screen en dessous de 1065px*/
+@media screen and (max-width: 1065px) {
+  .container-nav .contactAndMedia .contact {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .container-nav .contactAndMedia .contact div {
+    padding: 5px 0;
+  }
+  .container-nav .container-logo-name-navlink .containerLink {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .container-nav .container-logo-name-navlink .containerLink .navlink {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .container-nav .container-logo-name-navlink {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .container-nav .container-logo-name-navlink .containerLogoAndName {
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .container-nav .contactAndMedia {
+    display: none;
+  }
+  .container-nav .container-logo-name-navlink .containerLink {
+    padding: 10px;
+    background-color: #8ed1fc;
+    position: fixed;
+    right: -500%;
+    transition: all 0.5s ease-in-out;
+    top: 90px;
+  }
+  .container-nav .container-logo-name-navlink .containerLink.active {
+    right: 0;
+  }
+  .container-nav .navbarHamburger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 50px;
+    top: 15px;
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 50%;
+    transition: all 0.1s ease-in-out;
+  }
+  .container-nav .navbarhamburger:hover {
+    background-color: 8ed1fc;
+    color: black;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container-nav .container-logo-name-navlink .containerLink .navlink:hover {
+    font-size: 17px;
+    background-color: none;
+    color: #ffffff;
+  }
+  .container-nav .container-logo-name-navlink .containerLink {
+    top: 0;
+  }
+  .container-nav .container-logo-name-navlink .containerLink.active {
+    right: -30px;
+    text-align: right;
+  }
+  .container-nav .container-logo-name-navlink .containerLink .box-link {
+    padding: 70px 30px;
+    background-color: #8ed1fc;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    border-bottom-left-radius: 10px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .container-nav .container-logo-name-navlink .containerLogoAndName {
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
+}
