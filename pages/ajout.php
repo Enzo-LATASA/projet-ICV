@@ -25,7 +25,7 @@ if(in_array($ext_photo,$extenssion)){
             echo " l'enregistrement ne s'est pas fait";
         }
         else{
-            echo " le produit est bien ajouté";
+            echo " le produit est bien ajouté !";
         }
     }
 }
