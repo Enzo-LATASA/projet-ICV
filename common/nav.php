@@ -65,7 +65,7 @@
 <div class="Container-menu-Hamburger">
   <!-- 3.1 Div Child 1 : Contient le menu -->
   <div class="menuHamburger">
-    <i class='bx bx-menu'></i>
+    <em class='bx bx-menu'></em>
   </div>
 </div>
 <div class="background-Opacity"></div>

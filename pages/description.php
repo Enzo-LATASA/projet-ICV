@@ -11,7 +11,7 @@ echo "<div class='container'>
             <div class='col-4'>
                 <img style='width:250px;' src='upload/" . $produits['IMAGE_PRODUIT'] . "' alt='img' >" . 
             "</div>
-            <div class='col' id='info-description>
+            <div class='col' id='info-description'>
                 <div style='font-size:20px'>" . $produits["LIBELLE_PRODUIT"] . "</div>" . " " . 
                 "<div style='font-size:30px'>" . $produits["PRIX_PRODUIT"] . "€" . "</div>" . "<br>" . 
         "</div> </div>" .

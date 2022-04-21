@@ -29,13 +29,13 @@
       <div class="socialMedia">
         <div class="linkSocial">
           <a href="https://www.facebook.com/INFORMATIQUECHEZVOUS"
-            ><i class="bx bxl-facebook-circle"></i
+            ><em class="bx bxl-facebook-circle"></em
           ></a>
         </div>
 
         <div class="linkSocial">
           <a href="https://www.instagram.com/icvinformatique/?hl=fr"
-            ><i class="bx bxl-instagram-alt"></i
+            ><em class="bx bxl-instagram-alt"></em
           ></a>
         </div>
 
@@ -45,7 +45,7 @@
 
         <div class="linkSocial">
           <a href="https://www.linkedin.com/company/icv-informatique-sas/"
-            ><i class="bx bxl-linkedin"></i
+            ><em class="bx bxl-linkedin"></em
           ></a>
         </div>
       </div>

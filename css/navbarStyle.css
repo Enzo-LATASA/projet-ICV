@@ -1,7 +1,6 @@
 @font-face {
   font-family: "shizuru";
   src: url("/fonts/Shizuru-Regular.ttf") format("truetype");
-  font-family: "Redressed";
   src: url("/fonts/Redressed-Regular.ttf") format("truetype");
 }
 
@@ -9,7 +8,6 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Redressed";
 }
 /*-------Style Mobile-------*/
 /* @media screen and (min-width: 1065px) {
